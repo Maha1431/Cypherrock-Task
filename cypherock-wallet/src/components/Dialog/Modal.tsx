@@ -18,7 +18,7 @@ function Modals(props: showDialogProps) {
     props.setShowDialog(false);
     setSuccessMessage(""); // Reset success message on close
   };
-  const token = "a581bd0558224d848a98a1332a1ced9e";
+  const token = process.env.REACT_APP_BLOCKCYPHER_TOKEN;
  
   const handleSubmit = async () => {
     // Prepare the payload
