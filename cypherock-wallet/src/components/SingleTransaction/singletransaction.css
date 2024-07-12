@@ -1,0 +1,58 @@
+.singletransaction {
+  background-color: rgba(22, 28, 35, 1);
+  height: 60px;
+  margin: 0px 30px 0px 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  color: rgba(173, 171, 170, 1);
+  display: flex;
+  align-items: center;
+}
+.coinName {
+  flex: 3;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 30px;
+  align-items: center;
+}
+.coinName img {
+  margin-right: 5px;
+}
+.coinValue {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+.transactionAmount {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+.transactions {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+.receive {
+  font-weight: 600;
+  color: #8484f1;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(217, 217, 217, 0.25);
+}
+.receive img {
+  margin-right: 5px;
+}
+.send {
+  font-weight: 600;
+  color: #caa276;
+}
+.send img {
+  margin-right: 5px;
+}
+
+.send:hover,
+.receive:hover {
+  cursor: pointer;
+}

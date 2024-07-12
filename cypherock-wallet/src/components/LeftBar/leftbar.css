@@ -1,0 +1,85 @@
+.leftbar {
+  flex: 3;
+  background-color: #20252c;
+  min-height: calc(100vh - 64px);
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.leftbarContent {
+  padding-top: 40px;
+}
+.leftbarItem {
+  height: 50px;
+  display: flex;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.2px;
+  align-items: center;
+  margin: 10px;
+  margin-left: 60px;
+}
+.leftbarItem:last-child {
+  border-bottom: none;
+}
+.active {
+  color: #c0996f;
+}
+.leftbarImg {
+  width: 30px;
+  margin-right: 10px;
+}
+.wallets {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.walletadd {
+  font-weight: 500;
+  border: 1px dashed rgba(97, 97, 97, 1);
+  color: rgba(97, 97, 97, 1);
+  border-radius: 20px;
+  padding: 5px;
+}
+.walletadd:hover {
+  cursor: pointer;
+}
+.leftbarBtnDiv {
+  display: flex;
+  margin-left: 60px;
+  padding-bottom: 30px;
+  height: 100%;
+  align-items: flex-end;
+margin-top: 10px;
+}
+.leftbarBtn {
+  width: 150px;
+  border-radius: 5px;
+  height: 40px;
+  background-color: rgba(120, 91, 60, 1);
+  color: rgba(245, 206, 163, 1);
+  border: none;
+  font-size: 16px;
+}
+.left{
+  display: flex;
+  justify-content:  space-between;
+}
+.walletTable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.coinFiltersWrapper {
+  text-align: center;
+}
+
+.coinCount {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}

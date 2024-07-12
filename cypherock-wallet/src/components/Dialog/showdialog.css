@@ -1,0 +1,64 @@
+.dialogHeader {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+.dialogTitle {
+  flex: 12;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.closebtn {
+  position: absolute;
+  right: 30px;
+  cursor: pointer;
+}
+.indexDisplay {
+  width: 100%;
+  margin-top: 30px;
+  height: 80px;
+}
+.dialogFlow {
+  padding-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+/* Other commented-out CSS rules */
+
+/* Device Section CSS */
+.receiveInner {
+  margin: 40px;
+  margin-top: 50px;
+}
+.receiveComp {
+  width: 100%;
+  margin: 15px;
+  height: 45px;
+  border-radius: 10px;
+  color: #a6a2a2;
+  font-size: 15px;
+}
+.wallet {
+  border: 1px solid #c5c5c545;
+  width: 420px;
+  height: 35px;
+  border-radius: 3px;
+  background-color: #20242b;
+  color: white;
+}
+.reVerifyBtn {
+  color: white;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 40px;
+  background-color: orange;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 120px;
+  border-radius: 5px;
+}
